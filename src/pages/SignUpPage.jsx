@@ -1,4 +1,4 @@
-import SignupForm from "../components/SignupForm";
+import SignUpForm from "../components/SignUpForm";
 import { useSelector } from "react-redux";
 import { Navigate } from "react-router-dom";
 
@@ -16,7 +16,7 @@ export default function SignupPage() {
 
     return (
         <div className="flex justify-center items-center min-h-screen bg-black text-gray-100">
-            <SignupForm />
+            <SignUpForm />
         </div>
     );
 }
